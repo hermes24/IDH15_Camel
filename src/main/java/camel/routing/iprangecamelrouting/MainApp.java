@@ -18,15 +18,15 @@ public class MainApp {
 
         // Setup registry & Beans for new connections
         SimpleRegistry registry = new SimpleRegistry();
-        MongoClient connectionBean = new MongoClient("localhost", 27017);
-        registry.put("mongo", connectionBean);
+        MongoClient mongo = new MongoClient("localhost", 27017);
+        registry.put("mongo", mongo);
         
         // Build new camelContext with created registry object
         CamelContext context = new DefaultCamelContext(registry);
         
         // Define routes
         context.addRoutes(new HttpReceiver());
-        context.addRoutes(new CamelMongoRoute());
+        context.addRoutes(new CamelMongoRoute(mongo));
         
         // Start Camel !
         context.start();

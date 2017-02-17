@@ -17,11 +17,13 @@ public class HttpReceiver extends RouteBuilder {
 
         from("jetty:http://localhost:12345").process(new Processor() {
 
+            @Override
             public void process(Exchange exchange) throws Exception {
                 String body = exchange.getIn().getBody(String.class);
                 System.out.println(body);
                 exchange.getOut().setBody("Bye " + body);
                 exchange.getOut().setHeader(MinaConstants.MINA_CLOSE_SESSION_WHEN_COMPLETE, true); 
+
             }
 
         });
