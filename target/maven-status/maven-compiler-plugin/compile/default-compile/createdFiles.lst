@@ -1,1 +1,13 @@
+camel\routing\iprangecamelrouting\SendMail.class
+camel\routing\iprangecamelrouting\LesageHandler.class
+camel\routing\iprangecamelrouting\AddressStack.class
+camel\routing\iprangecamelrouting\PinkHandler.class
+camel\routing\iprangecamelrouting\CamelSqlRoute.class
+camel\routing\iprangecamelrouting\EzorgHandler.class
+camel\routing\iprangecamelrouting\DirectAction.class
 camel\routing\iprangecamelrouting\MainApp.class
+camel\routing\iprangecamelrouting\FloatingByteHandler.class
+camel\routing\iprangecamelrouting\WestersHandler.class
+camel\routing\iprangecamelrouting\Mail.class
+camel\routing\iprangecamelrouting\Customer.class
+camel\routing\iprangecamelrouting\MailRoute.class

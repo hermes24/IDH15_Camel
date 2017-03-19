@@ -87,6 +87,51 @@
             <artifactId>camel-spring</artifactId>
             <version>2.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.16.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-jms</artifactId>
+            <version>2.18.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-pool</artifactId>
+            <version>5.6.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-quartz</artifactId>
+            <version>2.18.2</version>   
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-mail</artifactId>
+            <version>2.18.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-jsonpath</artifactId>
+            <version>2.18.2</version>
+        </dependency>
+        <dependency>
+              <groupId>org.apache.activemq</groupId>
+              <artifactId>activemq-camel</artifactId>
+                <version>5.6.0</version>
+        </dependency>
+        <dependency>
+              <groupId>org.apache.camel</groupId>
+              <artifactId>camel-jpa</artifactId>
+              <version>2.18.2</version>
+        </dependency>
+
+
 
         
 
